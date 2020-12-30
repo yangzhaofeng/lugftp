@@ -8,3 +8,5 @@ ENABLE_UNSET_ENV_VARIBLES = false
 ENABLE_KEEP_USER_MODIFICATION = false
 LDAP_URI         = "ldaps://ldap.lug.ustc.edu.cn"
 LDAP_BASE        = "dc=lug,dc=ustc,dc=edu,dc=cn"
+DENIED_ADDRESS   = 192.168.93.0/24
+DENIED_GROUPS    = ldap_users

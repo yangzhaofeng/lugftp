@@ -19,3 +19,6 @@ ForceCommand internal-sftp
 
 Match User {{PRIVATE_USERNAME}}
     ChrootDirectory %h
+
+Match Address {{DENIED_ADDRESS}}
+    DenyGroups {{DENIED_GROUPS}}
