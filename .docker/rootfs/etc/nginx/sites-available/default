@@ -20,8 +20,4 @@ server {
 
     }
     index  index.html  index.php  /_h5ai/public/index.php;
-    location    /ebook {
-        autoindex   off;
-        return 403;
-    }
 }
