@@ -14,8 +14,8 @@ AllowTcpForwarding no
 UsePAM yes
 
 # Force sftp and chroot jail
-Subsystem sftp internal-sftp -l INFO
-ForceCommand internal-sftp -l INFO
+Subsystem sftp internal-sftp -l VERBOSE
+ForceCommand internal-sftp -l VERBOSE
 
 Match User {{PRIVATE_USERNAME}}
     ChrootDirectory %h
