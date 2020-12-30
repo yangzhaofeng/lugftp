@@ -3,7 +3,6 @@ LANGUAGE         = C.UTF-8
 LC_ALL           = C.UTF-8
 PRIVATE_USERNAME = lug
 PRIVATE_PASSWD   = password
-PASV_ADDRESS     = 127.0.0.1
 SERVER_NAME      = ftp.lug.ustc.edu.cn
 ENABLE_UNSET_ENV_VARIBLES = false
 ENABLE_KEEP_USER_MODIFICATION = false
