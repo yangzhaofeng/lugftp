@@ -8,9 +8,6 @@ mkdir -p /var/log/supervisor
 mkdir -p /var/log/nginx
 
 if [[ -d /opt/scripts ]]; then
-    for script in /opt/scripts/*.sh; do
-        if [[ -x $script ]]; then
-            $script
-        fi
-    done
+    run-parts -v --exit-on-error -- /opt/scripts
 fi
+
